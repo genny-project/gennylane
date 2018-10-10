@@ -47,7 +47,7 @@ app.post('/build', (req, res) => {
             const cmds = [
                 "rm -rf github",
                 "mkdir github",
-                "cd github && git clone https://d902423258d592a769b5cc6473ddbe93d34a37a7@github.com/genny-project/alyson-v3",
+                "cd github && git clone https://github.com/genny-project/alyson-v3",
                 "touch github/alyson-v3/.env"
             ]
 
